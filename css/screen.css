@@ -32,6 +32,9 @@ body	{
 	margin: 46px 20px 0 0;
 	z-index: 20;
 	}
+#centralizar{
+	
+}
 	
  
 .top-search-inp	{
@@ -835,6 +838,20 @@ font-family: Tahoma;
 	width: 225px;
 	z-index: 0;
 	}
+/*Um estilo para o logout do site Pessoal*/
+#nav-right_logout{
+	float: right;
+	position: relative;
+	width: 60px;
+	z-index: 0;
+	}
+#nav-right_logout a	{
+	display: block;
+	float: left;
+	margin: 0px 0 0 0;
+	}
+
+
 #nav-right a	{
 	display: block;
 	float: left;

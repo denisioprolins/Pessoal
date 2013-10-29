@@ -19,9 +19,7 @@
 <%
 	'tipoMenu = request.querystring("opcao")
 	'MenuNaoSelec = "class='select'"
-	
 %>
-
 
 <body> 
 	<!-- Start: page-top-outer -->
@@ -30,8 +28,8 @@
 		<!-- Start: page-top -->
 		<div id="page-top">
 			<!-- start logo -->
-				<div id="logo">
-					<a href="home.asp"><img src="images/shared/logo.png" width="156" height="40" alt="" /></a>
+				<div id="">
+					<a href="home.asp"><img src="images/shared/pessoal.png" width="140" height="100" alt="" /></a>
 				</div>
 			<!-- end logo -->
 		 	<div class="clear"></div>
@@ -48,11 +46,12 @@
 		<div class="nav-outer"> 
 
 			<!-- start nav-right -->
-			<div id="nav-right">						
+			<div id="nav-right_logout">						
 				<div class="nav-divider">&nbsp;</div>
-				<a href="index.asp" id="logout">
-					<img src="images/shared/nav/nav_logout.gif" width="64" height="14" alt="Sair" />
-				</a>	
+				<a href="index.asp" id="logout" align="rigth">
+					<img src="images/shared/nav/nav_logout.png" width="25" height="25" alt="Sair" />
+				</a>
+
 			</div>
 			<!-- end nav-right -->
 			
@@ -60,13 +59,12 @@
 			<div class="nav">
 				<div 	>
 
-					<ul class="select"><li><a href=""><b>Matrícula</b><!--[if IE 7]><!--></a><!--<![endif]-->
+					<ul class="select"><li><a href=""><b>Secretaria</b><!--[if IE 7]><!--></a><!--<![endif]-->
 					<!--[if lte IE 6]><table><tr><td><![endif]-->
 						<div class="select_sub">
 							<ul class="sub">
-								<li><a href="matricula.asp">Matricular Aluno(a)</a></li>
-								<li><a href="matricula.asp">Editar matrícula</a></li>
-								<li><a href="matricula.asp">Alunos Matriculados</a></li>
+								<li><a href="matricular.asp">Matricular Aluno(a)</a></li>
+								<li><a href="alunos.asp">Lista de Alunos</a></li>
 							</ul>
 						</div>
 						<!--[if lte IE 6]></td></tr></table></a><![endif]-->
